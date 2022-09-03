@@ -1,0 +1,67 @@
+.dashboard-box {
+  background: url('../../assets/img/bg-open.jpg');
+}
+.nav-dashboard {
+  background: rgb(255, 189, 189);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0.7rem;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  z-index: 2;
+  line-height: 0;
+}
+.nav-dashboard p {
+  color: var(--color-light);
+  margin: 0;
+  flex: 1;
+  font-family: 'Fredoka';
+}
+.nav-dashboard button {
+  background: transparent;
+  border-radius: 20px;
+  color: var(--color-light);
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.nav-dashboard button:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.add-couple-info {
+  margin: 2rem;
+  font-family: 'fredoka';
+}
+.add-couple-info p{
+  margin: 2rem;
+  text-align: center;
+}
+
+.figure img{
+  width: 100%;
+  box-sizing: border-box;
+  background-size: cover;
+  object-fit: cover;
+}
+
+table{
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 12px;
+  justify-content: center;
+  text-align: left;
+}
+
+table,td {
+  border: 1px solid rgb(204, 39, 141);
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+button.btn-edit {
+  background-color: rgb(78, 137, 247);
+  padding: 10px;
+}

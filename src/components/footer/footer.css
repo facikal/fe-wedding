@@ -1,0 +1,23 @@
+.footer-container {
+  background-color: var(--color-bg);
+  text-align: center;
+  justify-content: center;
+  font-family: 'Fredoka';
+  line-height: 20px;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+}
+.footer-container p {
+  margin-bottom: 10px;
+}
+.footer-container a,.footer-container p {
+  color: var(--color-primary);
+}
+
+.footer-container a {
+  margin: 5px;
+}
+
+.footer-container i {
+  font-size: 25px;
+}

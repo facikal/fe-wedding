@@ -1,0 +1,254 @@
+.ucapan-box {
+  margin: 2rem 1rem;
+  background: #4B5655;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.ucapan {
+  padding-bottom: 1rem;
+}
+
+.ucapan h2 {
+  font-family: gardenia;
+  font-weight: 100;
+  color: rgb(143, 96, 75);
+  font-size: 80px;
+  margin-bottom: 3rem;
+}
+
+.ucapan span {
+  font-family: Fredoka;
+  color: rgb(143, 96, 75);
+
+}
+
+.ucapan span::before,
+.ucapan span::after {
+  display: inline-block;
+  content: "";
+  border-top: .2rem solid rgb(143, 96, 75);
+  width: 2rem;
+  margin: -0.8rem 1rem;
+  transform: translateY(-1rem);
+
+}
+
+.ucapan p {
+  color: white;
+  font-family: 'Fredoka';
+}
+
+
+/* comment-box  */
+.comment-item {
+  margin: 0 0.5rem 1rem;
+  border-radius: 1rem;
+  background-color: white;
+  padding: 1rem;
+  animation: comment-appear 1400ms ease;
+}
+
+.comment-appear {
+  animation: comment-appear 1400ms ease;
+}
+
+@keyframes comment-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.comment-item i {
+  color: var(--color-primary);
+}
+.bi-envelope-check{
+  background-color: var(--color-bg);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.comment-name {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: left;
+}
+
+.name {
+  flex: 1;
+  margin-left: 0.5rem;
+}
+
+.name p {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.name i {
+  margin-left: 0.5rem;
+  font-weight: 200;
+}
+
+i.hadir{
+  color: green
+}
+i.tidak-hadir{
+  color: rgb(128, 0, 0)
+}
+i.masih-ragu{
+  color: rgb(202, 172, 0)
+}
+
+.comment-ucapan {
+  /* display: flex; */
+  margin-left: 0;
+  margin-top: 0.3rem;
+  line-height: 20px;
+}
+.comment-ucapan p {
+  color:#4B5655
+}
+
+.comment-ucapan div:nth-child(1) {
+  font-weight: 700;
+}
+
+.scroll {
+  height: 450px;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-top: 1rem;
+}
+
+/* add-comment  */
+
+.add-box {
+  text-align: left;
+  line-height: 30px;
+}
+
+.field {
+  margin: 1rem;
+}
+
+input,
+textarea,
+select {
+  font-family: 'Fredoka';
+  margin: 0.5rem 0;
+  width: 100%;
+  color: white;
+  border-style: none;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  border-color: none;
+  border-radius: 1rem;
+  background-color: #2c3332;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 200px;
+  resize: none;
+
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+select {
+  background-color: white;
+  color: #2c3332;
+}
+
+select:focus {
+  outline: var(--color-bg);
+}
+
+button.is-success {
+  background-color: var(--color-bg);
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  transition: var(--transition);
+}
+
+button.is-success:hover {
+  background-color: white;
+}
+
+.kehadiran {
+  margin: 1rem 1.5rem;
+  display: flex;
+  gap: 1rem;
+  color: white;
+  font-family: 'Fredoka';
+  font-size: 20px;
+}
+
+.kehadiran-box {
+  flex: 1;
+  background-color: rgb(58, 163, 58);
+  border: 2px solid white;
+  border-radius: 1rem;
+  padding: 1.5rem 0;
+}
+
+.kehadiran-box:nth-child(2),
+.kehadiran-box:nth-child(3) {
+  background-color: rgb(163, 58, 58);
+}
+
+.kehadiran-box p {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+
+/* pagination  */
+.pagination {
+  text-decoration: none;
+}
+
+.pagination-list {
+  display: flex;
+  font-family: 'Fredoka';
+  color: white;
+  font-weight: 500;
+  margin: 1rem 2rem 0 2rem;
+  font-size: 15px;
+  padding: 0;
+}
+
+
+ul {
+  list-style: none;
+}
+
+li{
+  transition: var(--transition);
+}
+
+li:hover{
+  color: var(--color-bg);
+  cursor: pointer;
+}
+
+.control p {
+  text-align: center;
+}
+.created {
+  margin: 0.3rem 0 0 0;
+}
+.created i {
+  color: #b4b4b4;
+  margin-right: 10px;
+  font-size: 12px;
+}

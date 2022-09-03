@@ -1,0 +1,35 @@
+.doa {
+  background: #4B5655;
+  z-index: 2;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 1rem;
+  padding: 1.5rem;
+}
+
+.doa img {
+  margin-top: 1rem;
+  width: 50%;
+}
+
+.doa p:nth-child(2) {
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 3rem;
+  direction: rtl;
+  font-family: LPMQ, "Traditional Arabic", Tahoma, sans-serif;
+}
+
+.doa p {
+  margin: 1rem auto;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Fredoka;
+  color: #FFFFFF
+}
+
+.doa p:nth-child(5) {
+  font-weight: bold;
+}

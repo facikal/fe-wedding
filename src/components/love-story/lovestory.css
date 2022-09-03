@@ -1,0 +1,53 @@
+.love-container {
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem 0;
+  color: var(--color-primary);
+}
+
+.love-container img {
+  width: 100%;
+  box-sizing: border-box;
+  background-size: cover;
+  object-fit: cover;
+  border-bottom-left-radius: 5rem;
+  margin: 1rem auto;
+}
+
+.love-container h2 {
+  font-family: gardenia;
+  font-weight: 100;
+  font-size: 120px;
+  margin: 0rem 0 4rem;
+}
+
+.love-container h3 {
+  font-family: ruthie;
+  font-weight: 100;
+  font-size: 55px;
+  position: absolute;
+  margin-top: -2rem;
+  text-shadow: 2px 2px 1px white;
+}
+
+.love-container p {
+  font-family: Fredoka;
+  margin: 1rem 0;
+}
+
+
+@media screen and (min-width: 1125px) {
+
+  .love-container {
+    margin: 10rem 5rem;
+  }
+
+}
+
+@media screen and (min-width: 700px) {
+
+  .love-container {
+    margin: 2rem 3rem;
+  }
+
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+@font-face {
+  font-family: 'LPMQ';
+  src: url('https://uminabdillah.github.io/fonts/lpmq.eot');
+  src: url('https://uminabdillah.github.io/fonts/lpmq.eot?#iefix') format('embedded-opentype'),
+    url('https://uminabdillah.github.io/fonts/lpmq.ttf') format('truetype');
+  font-weight: 400;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'gardenia';
+  src: url('./assets/font/gardenia-summer.regular.ttf');
+}
+
+@font-face {
+  font-family: 'arizona';
+  src: url('./assets/font/arizonia.regular.ttf');
+}
+
+@font-face {
+  font-family: 'norwester';
+  src: url('./assets/font/norwester.otf');
+}
+
+@font-face {
+  font-family: 'rotis';
+  src: url('./assets/font/RotisSemiSerifStd-Bold.otf');
+}
+
+@font-face {
+  font-family: 'ruthie';
+  src: url('./assets/font/Ruthie-Regular.ttf');
+}
+
+* {
+  margin: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-bg);
+  border-radius: 10px;
+}
+
+:root {
+  --transition: all 400ms ease;
+
+  --color-bg: #e9afb2;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: rgb(143, 96, 75);
+  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --color-orange: hsl(36, 97%, 57%);
+}
+
+.container {
+  background: url("assets/img/bg-open.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: -35px;
+  box-sizing: border-box;
+  line-height: 1rem;
+  padding: 2rem 0 0 0;
+}
+
+
+@media screen and (min-width: 1125px) {
+  body {
+    width: 30%
+  }
+
+  .love-container {
+    margin: 10rem 5rem;
+  }
+
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    width: 50%
+  }
+
+  .love-container {
+    margin: 2rem 3rem;
+  }
+
+}

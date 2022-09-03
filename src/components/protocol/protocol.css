@@ -1,0 +1,32 @@
+.protocol-container {
+  background: url('../../assets/img/bg-protocol.png');
+  background-size: cover;
+  text-align: center;
+  object-fit: cover;
+  padding: 7rem 3rem;
+}
+
+.protocol-container h2 {
+  font-family: rotis;
+  font-size: 30px;
+
+}
+
+.protocol-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 2rem 0;
+
+}
+
+.protocol-item>p {
+  height: 30px;
+  font-family: Fredoka;
+  font-size: 15px;
+}
+
+.protocol-item img {
+  margin: 0;
+  width: 100%;
+}

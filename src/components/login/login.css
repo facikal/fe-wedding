@@ -1,0 +1,37 @@
+.container-login {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../../assets/img/bg-login.jpg');
+  background-size: cover;
+  object-fit: cover;
+}
+
+.login-box {
+  width: 70%;
+  background: white;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30vh;
+  border-radius: 20px;
+  padding: 2rem 2rem;
+  box-sizing: border-box;
+}
+
+.login-box h2 {
+  margin-bottom:1rem ;
+}
+
+.login-box hr {
+  margin: 20px 0;
+}
+
+.login-input {
+  width: 100%;
+}
+
+button.is-success.login {
+  background: rgb(92, 149, 255);
+  width:100%;
+}
+button.is-success.login:hover {
+  background: transparent;
+}

@@ -1,0 +1,78 @@
+.resepsi-container {
+  background: url('../../assets/img/bg-flower.jpg');
+  background-size: cover;
+  object-fit: cover;
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 1rem;
+  padding: 2rem 0;
+}
+
+.resepsi-box {
+  padding: 2rem 2rem 2rem 2rem;
+  border-radius: 12rem 12rem 0 0;
+  width: 265px;
+  z-index: 1;
+  overflow: hidden;
+  margin: 1rem auto;
+  background: linear-gradient(var(--color-bg) 0%, var(--color-bg) 70%, #f7d4d6 100%);
+  position: relative;
+  box-shadow: 9px 11px 33px 12px rgba(75, 86, 85, 0.29);
+  -webkit-box-shadow: 9px 11px 33px 12px rgba(75, 86, 85, 0.29);
+  -moz-box-shadow: 9px 11px 33px 12px rgba(75, 86, 85, 0.29);
+}
+
+.resepsi-box h2 {
+  font-family: gardenia;
+  font-size: 80px;
+  margin: 40px 0;
+  color: white;
+  font-weight: 100;
+}
+
+.resepsi-box img:nth-child(1) {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 12rem 12rem 0 0;
+}
+
+.border-img {
+  border: 1px solid white;
+  border-radius: 12rem 12rem 0 0;
+  padding: 10px;
+  line-height: 0;
+}
+
+.eventDate p {
+  font-family: Fredoka;
+  font-size: 15px;
+  color: white;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+.location p {
+  font-family: Fredoka;
+  color: white;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.location p:nth-child(1) {
+  font-family: rotis;
+  font-size: 25px;
+  margin: 15px 0 5px;
+}
+
+.location p:nth-child(2) {
+  margin: 15px 0 35px;
+}
+
+.flower-reverse {
+  width: 90px;
+  transform: rotate(180deg)
+}

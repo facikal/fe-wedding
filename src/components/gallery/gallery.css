@@ -1,0 +1,28 @@
+.gallery-container {
+  text-align: center;
+  padding: 1rem 1rem;
+  color: var(--color-primary);
+}
+
+.gallery-container h2 {
+  font-family: gardenia;
+  font-weight: 100;
+  font-size: 120px;
+  margin: 0rem 0 5rem;
+}
+
+.gallery-box {
+  margin: 1.5rem 0;
+  gap: 0.2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery-box img {
+  width: 100%;
+  border-radius: 0.3rem;
+  background-size: cover;
+  object-fit: cover;
+  box-sizing: border-box;
+  line-height: 0;
+}

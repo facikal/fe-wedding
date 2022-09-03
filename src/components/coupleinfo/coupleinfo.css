@@ -1,0 +1,81 @@
+.couple-container {
+  background: url('../../assets/img/bg-open.jpg');
+  background-size: cover;
+  margin: auto;
+  text-align: center;
+  box-sizing: border-box;
+  line-height: 1rem;
+  padding: 2rem;
+}
+
+.border-img-couple {
+  border: 1px solid white;
+  padding: 2rem;
+  box-sizing: border-box;
+  width: 100%;
+  border-top-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+}
+
+.couple-box {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  background: radial-gradient(circle, #f7d4d6 0%, var(--color-bg) 50%);
+  border-top-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  box-shadow: 9px 11px 33px 12px rgba(75, 86, 85, 0.29);
+  -webkit-box-shadow: 9px 11px 33px 12px rgba(75, 86, 85, 0.29);
+  -moz-box-shadow: 9px 11px 33px 12px rgba(75, 86, 85, 0.29);
+  padding: 1.5rem 1.5rem;
+  box-sizing: border-box;
+}
+.pic img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-size: cover;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+.pic h2 {
+  position: relative;
+  font-family: gardenia;
+  top: -20px;
+  color: white;
+  font-weight: 200;
+  text-shadow: 2px 3px 10px black;
+  font-size: 90px;
+  text-transform: capitalize;
+}
+
+.pic p {
+  color: white;
+  text-transform: capitalize;
+}
+
+.pic p:nth-child(3) {
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: Fredoka;
+  font-weight: 600;
+}
+
+.pic p:nth-child(4) {
+  margin-top: 30px;
+  font-family: rotis;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.pic p:nth-child(5) {
+  margin-top: 10px;
+  font-family: Fredoka;
+  font-size: 15px;
+}
+
+.love {
+  margin: 30px;
+}

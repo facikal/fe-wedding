@@ -1,0 +1,82 @@
+.gift-container {
+  width: 100%;
+  background: #4B5655;
+  margin: 2rem auto 0;
+  color: white;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.gift-container h2 {
+  font-family: gardenia;
+  font-weight: 100;
+  font-size: 90px;
+  margin: 0rem 0 2rem;
+}
+
+.gift-container p {
+  font-family: Fredoka;
+}
+
+.gift-box {
+  width: 80%;
+}
+
+.gift-content {
+  background: #353d3d;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  margin: 1rem 0;
+  z-index: 2;
+}
+
+.gift-content h1 {
+  font-size: 50px;
+}
+
+.copyText {
+  text-align: center;
+  border-style: none;
+  background: transparent;
+  box-sizing: border-box;
+  font-family: Fredoka;
+  color: white;
+  font-size: 16px;  
+  margin: 0 0 0.5rem;
+}
+
+.copyText:focus {
+  outline: none;
+}
+
+button {
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-family: Fredoka;
+}
+
+button.alamat {
+  margin-top:10px;
+}
+
+button:hover {
+  background: white;
+  border: 2px solid #4B5655;
+  border-radius: 10px;
+  padding: 10px;
+  color: #4B5655;
+  cursor: pointer;
+  font-family: Fredoka;
+}
+
+button i {
+  margin-right: 5px;
+}
+
+.gift-content p {
+  margin-top: 1rem;
+}

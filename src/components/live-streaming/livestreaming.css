@@ -1,0 +1,22 @@
+.live {
+  background: #4B5655;
+  padding: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.live h2 {
+  font-family: gardenia;
+  font-weight: 100;
+  font-size: 80px;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.live p {
+  font-family: Fredoka;
+}
+
+.watch-live {
+  margin: 3rem 0;
+}
