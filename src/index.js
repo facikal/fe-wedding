@@ -7,11 +7,11 @@ import { store } from './app/store';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import axios from 'axios';
+// import axios from 'axios';
 
 AOS.init()
 
-axios.defaults.withCredentials = true
+// axios.defaults.withCredentials = true
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
