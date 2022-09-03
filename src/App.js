@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<MainLayouts />} />
         <Route path='/dashboard' element={<Dashboard />} />
-        <Route path='/logadminpost' element={<Login />} />
+        <Route path='/login' element={<Login />} />
         <Route path='/dashboard/editcoupleinfo/:id' element={<EditCoupleInfo />} />
         <Route path='/dashboard/editeventimage/:id' element={<EditEventImage />} />
         <Route path='/dashboard/editeventinfo/:id' element={<EditEventInfo/>} />
