@@ -16,9 +16,10 @@ axios.defaults = {
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json',
-    'Authorization': 'Bearer <token_here>'
+    'Authorization': '12314hkjgsdkfskjdthh3478jskdjfdsdsfhjk'
   }
 }
+// axios.defaults.headers.common['Authorization']= 'Auth Token'
 
 
 
