@@ -39,7 +39,6 @@ const Opening = ({ flower, playing, setPlaying, to }) => {
     setFemaleInfo(female.data.gender)
     setMaleInfo(male.data.gender)
   }
-  console.log(femaleInfo.nick);
   return (
     <React.Fragment>
       <audio src="assets/audio/song.mp3" type="audio/mp3" autoPlay loop />
