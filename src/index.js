@@ -19,7 +19,7 @@ axios.defaults = {
     'Authorization': '12314hkjgsdkfskjdthh3478jskdjfdsdsfhjk'
   }
 }
-// axios.defaults.headers.common['Authorization']= 'Auth Token'
+axios.defaults.headers.common['Authorization']= 'Auth Token'
 
 
 
