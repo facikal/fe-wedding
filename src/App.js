@@ -8,7 +8,6 @@ import EditEventInfo from './components/dashboard/EditEventInfo';
 import EditNorek from './components/dashboard/EditNorek';
 
 function App() {
-
   return (
     <Router>
       <Routes>
@@ -17,8 +16,8 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/dashboard/editcoupleinfo/:id' element={<EditCoupleInfo />} />
         <Route path='/dashboard/editeventimage/:id' element={<EditEventImage />} />
-        <Route path='/dashboard/editeventinfo/:id' element={<EditEventInfo/>} />
-        <Route path='/dashboard/editnorek/:id' element={<EditNorek/>} />
+        <Route path='/dashboard/editeventinfo/:id' element={<EditEventInfo />} />
+        <Route path='/dashboard/editnorek/:id' element={<EditNorek />} />
       </Routes>
     </Router>
   );

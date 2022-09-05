@@ -12,6 +12,15 @@ import axios from 'axios';
 AOS.init()
 
 axios.defaults.withCredentials = true
+axios.defaults = {
+  headers: {
+    'Content-Type': 'application/json',
+    'Accept': 'application/json',
+    'Authorization': 'Bearer <token_here>'
+  }
+}
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
