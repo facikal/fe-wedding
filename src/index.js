@@ -15,11 +15,10 @@ axios.defaults.withCredentials = true
 axios.defaults = {
   headers: {
     'Content-Type': 'application/json',
-    // 'Accept': 'application/json',
-    // 'Authorization': '12314hkjgsdkfskjdthh3478jskdjfdsdsfhjk'
+    'Accept': 'application/json',
+    'Authorization': 'Bearer <token_here>'
   }
 }
-axios.defaults.headers.common['Authorization']= 'Auth Token'
 
 
 
