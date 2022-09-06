@@ -11,14 +11,17 @@ import axios from 'axios';
 
 AOS.init()
 
-axios.defaults.withCredentials = true
-axios.defaults = {
+// axios.defaults.withCredentials = true
+axios.create({
+  baseURL: process.env.REACT_APP_BASEURL,
+  withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
     'Accept': 'application/json',
     'Authorization': 'Bearer <token_here>'
-  }
-}
+  },
+
+})
 
 
 
